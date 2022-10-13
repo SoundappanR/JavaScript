@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 400px;
+
+  background: linear-gradient(60deg, #74d690, #5cbfbb);
+}
+
+.display {
+  height: 70px;
+  line-height: 1.5;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: right;
+  padding: 20px 10px 10px 10px;
+  background-color: #444;
+  color: white;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.btns {
+  border: 2px solid gray;
+  text-align: center;
+  cursor: pointer;
+  font-size: 30px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.btns:hover {
+  background: linear-gradient(60deg, #0d5631, #5cbfbb);
+  color: whitesmoke;
+}
